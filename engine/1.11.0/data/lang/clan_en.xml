@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+    <!-- tab names -->
+    <message name="CLAN_TITLE_EMPTY" value="Clan room"/>
+    <message name="TAB_CREATE_CLAN" value="Create"/>
+    <message name="TAB_CLAN_CHAT" value="Chat"/>
+    <message name="MESSAGE_TO_CLAN" value="Message to the clan"/>
+    <message name="TAB_SEARCH_CLAN" value="Search"/>
+    <message name="TAB_INVITES_TO_CLAN" value="Invtations"/>
+    <message name="CLAN_INFO_TAB" value="Info"/>
+    <message name="CLAN_EDIT_TAB" value="Edit clan"/>
+
+    <!-- clan creation -->
+    <message name="CREATE_CLAN_BTN" value="Create a clan!"/>
+    <message name="CLAN_NAME" value="Clan name:"/>
+    <message name="CLAN_DESCRIPTION" value="Clan description:"/>
+    <message name="MAX_LENGTH_LABEL" value="Up to 16 symbols"/>
+    <message name="CLAN_LOGO" value="Clan emblem:"/>
+    <message name="SETTINGS_TEXT" value="Configure with arrows"/>
+    <message name="LOGO_LABEL_TEXT" value="Insignia"/>
+    <message name="LOGO_COLOR_LABEL_TEXT" value="Insignia color"/>
+    <message name="PATTERN_LABEL_TEXT" value="Pattern"/>
+    <message name="COLOR_LABEL_TEXT" value="Pattern color"/>
+    <message name="NOT_IN_CLAN" value="You are not a member of a clan"/>
+    <message name="CANT_CREATE_CLAN" value="Unfortunately, you can't create your clan yet!"/>
+    <message name="CANT_CREATE_CLAN_DESC">
+        <![CDATA[You have to reach <b> <font color='#FF5858'>level {level} </font></b> and score<b><font color='#FF5858'> at least {rating}</font></b> rating, to create your own clan.]]></message>
+
+    <message name="CREATE_CLAN_CONFIRMATION" value="So are you ready to create a clan?"/>
+
+    <!-- clan search -->
+    <message name="SEARCH_CLAN_NAME_LABEL" value="Clan name:"/>
+    <message name="SEARCH_CLAN_BTN" value="Find!"/>
+    <message name="CLAN_RATING_POINTS" value="Clan rating:"/>
+    <message name="SEARCH_FAILED_LABEL" value="No results found"/>
+
+    <!-- clan info -->
+    <message name="CLAN_COMPOSITION" value="Members: "/>
+    <message name="CLAN_RATING" value="Rating: "/>
+    <message name="CLAN_LEAVE_BTN" value="Leave"/>
+
+    <!-- edit clan -->
+    <message name="EDIT_CLAN_TAB" value="Edit clan"/>
+    <message name="CLAN_CAPACITY_LABEL" value="Clan capacity:"/>
+    <message name="CLAN_EXPAND_TO" value="Increase to {value}"/>
+    <message name="SAVE_BUTTON" value="Save"/>
+    <message name="EXPAND_CLAN_BUTTON" value="Increase"/>
+
+    <message name="CHANGE_CLAN_NAME_CONFIRMATION" value="Shall we change your clan's name for 5 rubies?"/>
+    <message name="CHANGE_CLAN_EMBLEM_CONFIRMATION"
+             value="Shall we change your clan's emblem for 5 rubies?"/>
+    <message name="CHANGE_CLAN_DESCRIPTION_CONFIRMATION"
+             value="Shall we change your clan's description for 5 rubies?"/>
+    <message name="EXPAND_CLAN_CONFIRMATION" value="Are you sure you want to increase your clan's capacity?"/>
+
+    <message name="CHANGE_CLAN_NAME_FAILED" value="Clan name is the same as the current one"/>
+    <message name="CHANGE_CLAN_DESCRIPTION_FAILED" value="Clan description is the same as the current one"/>
+    <message name="CHANGE_CLAN_EMBLEM_FAILED" value="Clan emblem is the same as the current one"/>
+    <message name="ERR_CLAN_NAME_EXISTS" value="THis name has been taken by another clan already!"/>
+
+    <message name="ERROR_MIN_CHAR_CLAN_NAME" value="Clan name must be at least {value} symbols"/>
+    <message name="MAX_CHAR_CLAN_NAME_LABEL" value="No more than {maxChar} symbols"/>
+
+    <message name="MAX_CAPACITY_TITLE" value="Maximum capacity"/>
+    <message name="MAX_CAPACITY_LABEL"
+             value="Your clan has reached maximum capacity. You can't increase it further."/>
+
+    <message name="MESSAGE_ON_GET_LEVEL_IN_ROOM" value="Clan capacity is increased."/>
+    <message name="REPEATED_REQUEST_ON_NEW_LEVEL" value="Request for increasing capacity has been already sent."/>
+
+    <!-- invites -->
+    <message name="INIVTE_TO_CLAN_POPUP_MENU_ITEM" value="Invite to clan"/>
+    <message name="FRIEND_ALREADY_IN_CLAN" value="Your friend is already in clan!"/>
+    <message name="FRIEND_INVITE_SENT" value="Invitation sent!"/>
+    <message name="PLAYER_NOT_IN_CLAN" value="You are not a clan member!"/>
+    <message name="RESTRICTION_ON_RANK_AT_INVITE"
+             value="Only clan leader and officers can invite new members!"/>
+
+    <message name="INVITES_COUNT" value="Current invitations: {invites}."/>
+    <message name="INVITE_TEXT" value="invites to"/>
+    <message name="JOIN_TO_CLAN_BTN" value="Join"/>
+    <message name="INVITE_CONFIRMATION_TITLE" value="Clan invitation"/>
+    <message name="INVITE_CONFIRMATION_TEXT" value="Accept invitation to {clanName}?"/>
+
+    <message name="ERR_REPEATED_INVITE" value="You've already sent an invitation to this player."/>
+    <message name="ERR_PROFILE_INVITE_LIMIT" value="Your friend has too much invitations already."/>
+    <message name="ERR_CLAN_INVITE_LIMIT" value="You can't send more invitations right now. Please, try a bit later."/>
+    <message name="ERR_INTEROP_ON_INVITE"
+             value="Your friend's account is blocked, you can't invite him to the clan."/>
+
+    <message name="ERR_INVITE_LOW_LEVEL_FRIEND" value="You can't invite players below {level} level"/>
+    <message name="ERR_INVITE_ALREADY_PASSED" value="Invitation expired"/>
+
+    <!-- chat messages -->
+    <message name="CLAN_UNKNOWN_MESSAGE" value="Unrecognized message."/>
+    <message name="CLAN_HAS_NEW_NAME" value="Leader changed the clan name."/>
+    <message name="CLAN_HAS_NEW_DESCRIPTION" value="Leader changed a description."/>
+    <message name="CLAN_HAS_NEW_CAPACITY" value="{name} increased clan capacity."/>
+    <message name="CLAN_HAS_NEW_EMBLEM" value="Clan emblem was changed."/>
+
+    <message name="MEMBER_JOINED_CLAN" value="{name} joined the clan."/>
+    <message name="MEMBER_LEFT_CLAN" value="{name} left the clan."/>
+    <message name="MEMBER_WAS_EXPELLED" value="{name} was removed from the clan."/>
+
+    <message name="LEADER_PROMOTE_RANK_MEMBER" value="{name} was promoted to {rank}."/>
+    <message name="LEADER_LOWER_RANK_MEMBER" value="{name} was demoted to {rank}."/>
+    <message name="RANK_OFFICER_ACCUSITIVE" value="officer"/>
+    <message name="RANK_SOLDIER_ACCUSITIVE" value="soldier"/>
+    <message name="LEADER_SWITCHED_WITH_OFFICER" value="{name} is the new leader now."/>
+
+    <!-- news -->
+    <message name="DEFAULT_NEWS_CLAN_TITLE" value="There are no news"/>
+    <message name="NEWS_CLAN_TITLE_LOCKED"
+             value="Your clan is blocked. Change clan name and/or description to remove a block."/>
+    <message name="NEWS_POST_INFO" value="{profileId} left a message on {date} {time}"/>
+
+    <!-- context menus -->
+    <message name="CONTEXT_MENU_JOINT_FIGHT" value="Team battle"/>
+    <message name="CONTEXT_MENU_DUEL" value="Duel"/>
+    <message name="CONTEXT_VISIT_USER" value="Visit a clanmate"/>
+    <message name="CONTEXT_MENU_ADD_USER_TO_TEAM" value="Hire a clanmate"/>
+    <message name="CONTEXT_MENU_INCREASE_RANK" value="Promote"/>
+    <message name="CONTEXT_MENU_REDUCE_RANK" value="Demote"/>
+    <message name="CONTEXT_MENU_MAKE_LEADER" value="Make a new leader"/>
+    <message name="CONTEXT_MENU_FIRE_FROM_CLAN" value="Expell from clan"/>
+    <message name="EXIT_CLAN_LABEL" value="Leave the clan"/>
+    <message name="DELETE_CLAN_LABEL" value="Delete the clan"/>
+
+    <!-- common -->
+    <message name="USER_EXPELLED_FROM_CLAN_MSG" value="You were removed from the clan!"/>
+    <message name="USER_EXPELLED_BY_OFFICER_MSG" value="{name} removed you from the clan!"/>
+    <message name="OFFICERS_POSITIONS" value="Officers:"/>
+    <message name="CLAN_BTN_QTIP" value="Clan"/>
+    <message name="CLAN_DISABLE_QTIP" value="Clan room is available from {level} level"/>
+    <message name="CLAN_DISABLE_NOT_IN_CLAN_QTIP" value="The player is not a clan member"/>
+    <message name="CONFIRMATION_EXIT_FROM_CLAN" value="Are you sure to leave the clan?"/>
+    <message name="NO_RESPONSE_FROM_SERVER_CLAN" value="No response from clan server."/>
+    <message name="CLAN_LOCKED_MESSAGE" value="Your clan is blocked, action is denied."/>
+    <message name="USER_RANK_PROMOTE" value="You are promoted!"/>
+    <message name="USER_RANK_LOWER" value="You are demoted!"/>
+    <message name="ERR_LEADER_QUIT_CLAN"
+             value="Clan can only be removed, when there is 1 member remaining. Pass your leadership to an officer or remove other members."/>
+    <message name="QUIT_CLAN_CONFIRMATION" value="Are you sure to disband a clan?"/>
+    <message name="PROMOTION_CONFIRMATION_OFFICER"
+             value="Officers have the right to invite new members and remove existing ones. They can also leave a message to the clan and increase the capacity. Promote this member?"/>
+    <message name="PROMOTION_CONFIRMATION_LEADER"
+             value="When you promote a member to become the leader, you become an officer automatically. Do you really want to promote this member?"/>
+    <message name="CLAN_NOT_FOUND" value="This clan doesn't exist anymore."/>
+    <message name="OPEN_CLAN_TYPE" value="Rating requirement:"/>
+
+    <message name="CLOSE_CLAN_TYPE" value="Clan is closed:"/>
+    <message name="TERMS_OF_JOINT" value="Join conditions"/>
+    <message name="REQUIRED_RATING_FOR_JOINT" value="Minimum rating:"/>
+    <message name="CLAN_EMBLEM" value="Clan emblem"/>
+    <message name="SETTING_LABEL" value="Configure"/>
+    <message name="MIN_RATING_NEED" value="You have to set the minimal rating"/>
+    <message name="MIN_RATING_ZERO" value="Rating must be greater than 0!"/>
+    <message name="JOIN_RATING_NOT_CHANGED" value="Rating value is the same as current!"/>
+    <message name="JOIN_TO_CLAN" value="Join policy:"/>
+
+    <message name="OPEN_CLAN" value="free"/>
+    <message name="CLOSE_CLAN" value="by invitation"/>
+    <message name="OPEN_FOR_RATING" value="rating: {value}"/>
+    <message name="MAP_CAPACITY_FOR_JOIN_CLAN" value="Clan is full. Unfortunately, there is no room for you."/>
+    <message name="JOIN_CLAN_CONFIRMATION_TITLE" value="Joining a clan"/>
+    <message name="JOIN_CLAN_CONFIRMATION_TEXT" value="Are you sure you want to join {clanName}?"/>
+
+    <message name="RANK_SOLDIER" value="Soldier"/>
+    <message name="RANK_OFFICER" value="Officer"/>
+    <message name="RANK_LEADER" value="Leader"/>
+    <message name="CLANS" value="Clans"/>
+</dictionary>
