@@ -6,7 +6,7 @@
 	<meta http-equiv="Cache-control" content="no-cache"/>
 	<meta http-equiv="pragma" content="no-cache"/>           
 	<link rel="stylesheet" href="style.css" type="text/css"/>
-	<title>Wormix</title>
+	<title>Wormix Test</title>
 	
     <script type="text/javascript" src="//commonstatic.evast.ru/js/jquery-1.7.1.min.js"></script>
 	<script src="//vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>  	
@@ -50,7 +50,7 @@
     </style>
 	
 	<script type="text/javascript">
-        <!-- "For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection." -->
+        <!-- For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection. -->
         var swfVersionStr = "9.0.0";
         <!-- To use express install, set to playerProductInstall.swf, otherwise the empty string. -->
         var xiSwfUrlStr = "playerProductInstall.swf";       
@@ -63,7 +63,7 @@
             var pair = vars[i].split("=");
             params[pair[0]] = pair[1];
         }
-
+        
         params.quality = "high";
         params.bgcolor = "#FFFFFF";
         params.allowscriptaccess = "sameDomain";
@@ -79,7 +79,7 @@
         attributes.wmode = "direct";
 
         swfobject.embedSWF(
-                "preloader_870.swf", "flashContent",
+                "preloader.swf", "flashContent",
                 "100%", "100%",
                 swfVersionStr, xiSwfUrlStr, params, attributes);
         swfobject.createCSS("#flashContent", "display:block;text-align:middle;");
@@ -97,23 +97,21 @@
             VK.addCallback('onOrderCancel', onOrderCancel);
             VK.addCallback('onOrderFail', onOrderFail);
 
-            VK.addCallback('onSubscriptionSuccess', onSubscriptionSuccess);
-            VK.addCallback('onSubscriptionCancel', onSubscriptionCancel);
-            VK.addCallback('onSubscriptionFail', onSubscriptionFail);
-
             VK.addCallback("onWindowBlur", onWindowBlur);
             VK.addCallback("onWindowFocus", onWindowFocus);
-
-            if (!isTop()) getSwf().onRegisterSuccess();
         }
 
-        function onOrderSuccess(order_id){ getSwf().onOrderSuccess(order_id); }
-        function onOrderCancel(){ getSwf().onOrderCancel(); }
-        function onOrderFail(){ getSwf().onOrderFail(); }
+        function onOrderSuccess(order_id){
+            getSwf().onOrderSuccess(order_id);
+        }
 
-        function onSubscriptionSuccess(subscription_id){ getSwf().onSubscriptionSuccess(subscription_id); }
-        function onSubscriptionCancel(){ getSwf().onSubscriptionCancel(); }
-        function onSubscriptionFail(){ getSwf().onSubscriptionFail(); }
+        function onOrderCancel(){
+            getSwf().onOrderCancel();
+        }
+
+        function onOrderFail(){
+            getSwf().onOrderFail();
+        }
 
         function onWindowBlur() {
             $("#flashContent").css({height: "0px", overflow: "hidden", visible:"false"});    
@@ -122,7 +120,7 @@
 
         function onWindowFocus() {
             $("#flashContent").css({height: "600px", overflow: "visible", visible:"true"});            
-            VK.callMethod("resizeWindow", 900, 600);
+            VK.callMethod("resizeWindow", 800, 600);
         }
 
         function getSwf() {
@@ -134,18 +132,12 @@
             }
         }
 
-        function isTop() {
-            return window == top;
-        }
-
     </script>
 </head>
 <body>
 
 <div id="flashContent" align="center">
-	<p>
-        &copy; <a href="http://pragmatix-corp.com/news.html" target="_blank">Pragmatix</a>
-    </p>
+	
 </div>
 
 </body>
