@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <message name="TEXT1" value="Всегда приятно, когда есть что-то свеженькое для крафта."/>
+    <message name="TEXT2" value="Теперь вы не пропустите важные события в вашем клане. Ну и будет что почитать между сражениями :)"/>
+    <message name="TEXT2A" value="Вас исключили..."/>
+    <message name="TEXT3" value="Сражения, где решает только скилл!"/>
+
+    <message name="SHOP_BTN" value="В Магазин!"/>
+    <message name="ARMORY_BTN" value="В Оружейную!"/>
+    <message name="ARENA_BTN" value="На Арену!"/>
+</dictionary>
